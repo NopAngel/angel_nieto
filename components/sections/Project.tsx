@@ -64,7 +64,7 @@ export default function Project() {
             capture,
             spotlight,
             id,
-          }: any) => (
+          }) => (
             <Box
               LinkPage={link}
               Title={title}
