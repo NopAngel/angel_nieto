@@ -6,7 +6,7 @@ import toast from "react-hot-toast";
 export default function Contact() {
   const form = useRef();
 
-  const sendMail = (e: any) => {
+  const sendMail = (e: React.SyntheticEvent<EventTarget>) => {
     e.preventDefault();
     emailjs
       .sendForm("service_lpdsfvr", "template_zyfxxgl", form.current, {
