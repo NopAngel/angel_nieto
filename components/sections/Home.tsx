@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { TextHoverEffect } from "../ui/text-hover-effect";
+
 import { useScroll, useTransform } from "framer-motion";
 import { GoogleGeminiEffect } from "../ui/google-gemini-effect";
 

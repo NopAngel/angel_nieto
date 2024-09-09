@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { AnimatedTooltip } from "./ui/animated-tooltip";
 
 export default function Box({
   Title,
@@ -12,7 +11,17 @@ export default function Box({
   Capture,
   Spotlight,
   Color,
-}: any) {
+}: {
+  Title: string;
+  Icon: string;
+  Subdescription: string;
+  Description: string;
+  Github: string;
+  LinkPage: string;
+  Capture: string;
+  Spotlight: string;
+  Color: string;
+}) {
   return (
     <article
       className={`w-full flex justify-between xl:flex-row flex-col relative p-20`}
