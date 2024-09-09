@@ -10,7 +10,6 @@ export default function Box({
   LinkPage,
   Capture,
   Spotlight,
-  Color,
 }: {
   Title: string;
   Icon: string;
@@ -20,7 +19,6 @@ export default function Box({
   LinkPage: string;
   Capture: string;
   Spotlight: string;
-  Color: string;
 }) {
   return (
     <article

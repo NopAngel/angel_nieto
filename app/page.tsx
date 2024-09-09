@@ -4,6 +4,7 @@ import Contact from "@/components/sections/Contact";
 import FooterTwo from "@/components/sections/FooterTwo";
 import Home from "@/components/sections/Home";
 import Project from "@/components/sections/Project";
+import { FloatingNav } from "@/components/ui/floating-navbar";
 
 import { IconHome, IconMessage, IconTool, IconUser } from "@tabler/icons-react";
 import React from "react";

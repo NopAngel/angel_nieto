@@ -62,7 +62,6 @@ export default function Project() {
             github,
             link,
             capture,
-            color,
             spotlight,
             id,
           }: any) => (
@@ -74,7 +73,6 @@ export default function Project() {
               Subdescription={subdescription}
               Github={github}
               Capture={capture}
-              Color={color}
               Spotlight={spotlight}
               key={id}
             />
