@@ -38,7 +38,7 @@ export default function HomePage() {
   return (
     <main>
       <Toaster />
-      <FloatingNav navItems={navItems} />
+
       <section>
         <Home />
         <About />
